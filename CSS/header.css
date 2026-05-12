@@ -1,0 +1,45 @@
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2E2F42;
+    text-transform: uppercase;
+    }
+    
+.accent-logo {
+    color: #4D5AE5;
+}
+
+nav ul {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+nav ul li:hover {
+    color: #404BBF;
+}
+nav ul li:focus {
+    color: #2E2F42;
+
+}
+
+.address ul {
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address ul li:hover {
+    color: #404BBF;
+}
+.address ul li:focus {
+    color: #434455;
+}
