@@ -11,7 +11,9 @@
 .accent-logo {
     color: #4D5AE5;
 }
-
+.accent-logo-part {
+    color: #F4F4FD;
+}
 .nav-features, .nav-team, .nav-portfolio {
     font-weight: 500;
     font-size: 16px;
