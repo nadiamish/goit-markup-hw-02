@@ -25,12 +25,8 @@
     cursor: pointer;
 }
 
-.button:hover {
-    background: #404BBF;
-    color: #ffffff;
-}
-
+.button:hover,
 .button:focus {
-    background: #4D5AE5;
+    background: #404BBF;
     color: #ffffff;
 }
