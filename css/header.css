@@ -2,6 +2,7 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.33;
     color: #2E2F42;
     text-transform: uppercase;
     }
@@ -10,7 +11,7 @@
     color: #4D5AE5;
 }
 
-nav ul {
+.nav-features, .nav-team, .nav-portfolio {
     font-weight: 500;
     font-size: 16px;
     color: #2E2F42;
@@ -19,15 +20,28 @@ nav ul {
     letter-spacing: 0.02em;
 }
 
-nav ul li:hover {
+.nav-features:hover {
     color: #404BBF;
 }
-nav ul li:focus {
-    color: #2E2F42;
-
+.nav-features:focus {
+    color: #404BBF;
 }
 
-.address ul {
+.nav-team:hover {
+    color: #404BBF;
+}
+.nav-team:focus {
+    color: #404BBF;
+}
+
+.nav-portfolio:hover {
+    color: #404BBF;
+}
+.nav-portfolio:focus {
+    color: #404BBF;
+}
+
+.contact-mail,.contact-phone {
     font-style: normal; 
     font-weight: 400;
     font-size: 16px;
@@ -37,9 +51,16 @@ nav ul li:focus {
     letter-spacing: 0.02em;
 }
 
-.address ul li:hover {
+.contact-mail:hover {
     color: #404BBF;
 }
-.address ul li:focus {
-    color: #434455;
+.contact-mail:focus {
+    color: #404BBF;
+}
+
+.contact-phone:hover {
+    color: #404BBF;
+}
+.contact-phone:focus {
+    color: #404BBF;
 }

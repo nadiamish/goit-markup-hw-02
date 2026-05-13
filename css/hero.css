@@ -1,4 +1,4 @@
-#hero {
+.section-hero {
     font-weight: 700;
     font-size: 56px;
     /* line-height: 60px; */
@@ -8,4 +8,19 @@
     background-color: #2E2F42;
     color: #ffffff;
 
+}
+
+.button {
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
+
+.button:hover {
+    background: #4D5AE5;
+    color: #ffffff;
+}
+
+.button:focus {
+    background: #404BBF;
+    color: #ffffff;
 }

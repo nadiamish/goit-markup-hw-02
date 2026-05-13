@@ -13,29 +13,12 @@ a {
     color: inherit;
 }
 
-
-
-.button {
-    background-color:#4D5AE5;
-    color: #ffffff;
-}
-
-.button:hover {
-    background: #4D5AE5;
-    color: #ffffff;
-}
-
-.button:focus {
-    background: #404BBF;
-    color: #ffffff;
-}
-
 h2 {
     font-weight: 700;
     font-size: 36px;
     color: #2E2F42;
     /* line-height: 40px; */
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     
@@ -50,14 +33,31 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-#team {
+.section-team {
     background-color: #F4F4FD;
 }
 
-#team ul h3, #team ul p {
+.section-team ul h3 {
     text-align: center;
 }
 
-#team ul li {
+.section-team ul p {
+    font-size: 16px;
+    color: #434455;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.section-team ul li {
     background-color: #ffffff;
+}
+
+.section-portfolio ul p {
+    font-size: 16px;
+    color: #434455;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
