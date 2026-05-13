@@ -1,4 +1,4 @@
-.section-hero {
+.title-hero {
     font-weight: 700;
     font-size: 56px;
     /* line-height: 60px; */
@@ -13,14 +13,20 @@
 .button {
     background-color: #4D5AE5;
     color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .button:hover {
-    background: #4D5AE5;
+    background: #404BBF;
     color: #ffffff;
 }
 
 .button:focus {
-    background: #404BBF;
+    background: #4D5AE5;
     color: #ffffff;
 }
